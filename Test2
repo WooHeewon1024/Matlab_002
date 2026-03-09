@@ -1,0 +1,8 @@
+
+x=10;
+y=3;
+s= 5*sin(2*y);%1f
+z=sin(x);%2d
+
+disp(s)
+disp(z)
