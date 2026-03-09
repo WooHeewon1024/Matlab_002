@@ -1,0 +1,16 @@
+% myscript.m
+%a=3;
+%b=4;
+%c=a^2+b^2;
+%disp(c)
+
+
+g=9.81;
+tfinal = input('최종 시간을 초로 입력하여라 : ');
+dt=tfinal/500;
+t=0:dt:tfinal;
+v=g*t;
+
+plot(t,v)
+xlabel('t (s)')
+ylabel('v (m/s)')
